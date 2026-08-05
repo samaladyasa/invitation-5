@@ -1,0 +1,288 @@
+{
+  "primaryColor": "#C09A6B",
+  "brandName": "Aarav & Ananya",
+  "navbar": {
+    "subtitle": "Wedding Celebration"
+  },
+  "hero": {
+    "names": ["Aarav", "Ananya"],
+    "subtitle": "Together with their beloved families",
+    "location": "Udaipur, Rajasthan • India"
+  },
+  "eventDetails": {
+    "tag": "Sacred Ceremonies & Itinerary",
+    "headline": "Wedding Celebrations",
+    "description": "Three days of rituals, music, and joy.",
+    "events": [
+      {
+        "id": "mehendi",
+        "day": "day1",
+        "dayLabel": "Day 1 • Nov 23",
+        "step": "01",
+        "title": "Shubh Mehendi & High Tea",
+        "date": "November 23, 2026",
+        "time": "11:00 AM Onwards",
+        "venue": "Courtyard Gardens, Umaid Bhawan Palace",
+        "mapsUrl": "https://maps.google.com/?q=Courtyard+Gardens+Umaid+Bhawan+Palace",
+        "dressCode": "Vibrant Pastels & Floral Ethnic",
+        "dressColors": [
+          { "hex": "#FFB6C1", "name": "Pastel Rose" },
+          { "hex": "#98FB98", "name": "Mint Green" },
+          { "hex": "#FFD700", "name": "Festival Gold" }
+        ],
+        "description": "A joyful afternoon of henna, music, and festive bites.",
+        "highlights": ["Henna Art", "Dholak Beats", "High Tea"],
+        "startDate": "2026-11-23T11:00:00+05:30",
+        "endDate": "2026-11-23T15:00:00+05:30",
+        "image": "https://images.unsplash.com/photo-1544078751-58fed2d3cd44?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "sangeet",
+        "day": "day1",
+        "dayLabel": "Day 1 • Nov 23",
+        "step": "02",
+        "title": "Sangeet & Gala Night",
+        "date": "November 23, 2026",
+        "time": "07:00 PM Onwards",
+        "venue": "The Grand Ballroom, Umaid Bhawan Palace",
+        "mapsUrl": "https://maps.google.com/?q=Grand+Ballroom+Umaid+Bhawan+Palace",
+        "dressCode": "Glitz & Glamour / Indo-Western",
+        "dressColors": [
+          { "hex": "#2D473B", "name": "Deep Emerald" },
+          { "hex": "#C09A6B", "name": "Antique Gold" },
+          { "hex": "#5C2C1E", "name": "Chestnut Velvet" }
+        ],
+        "description": "An evening of dance, music, and celebration with family.",
+        "highlights": ["Dance Night", "Live Music", "Dinner"],
+        "startDate": "2026-11-23T19:00:00+05:30",
+        "endDate": "2026-11-23T23:30:00+05:30",
+        "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "haldi",
+        "day": "day2",
+        "dayLabel": "Day 2 • Nov 24",
+        "step": "03",
+        "title": "Haldi & Chooda Ceremony",
+        "date": "November 24, 2026",
+        "time": "10:00 AM Onwards",
+        "venue": "Poolside Lawns, Umaid Bhawan Palace",
+        "mapsUrl": "https://maps.google.com/?q=Poolside+Lawns+Umaid+Bhawan+Palace",
+        "dressCode": "Sunrise Yellow & Pearl White",
+        "dressColors": [
+          { "hex": "#F3C882", "name": "Turmeric Yellow" },
+          { "hex": "#FFFBF8", "name": "Pearl White" },
+          { "hex": "#E5A259", "name": "Warm Amber" }
+        ],
+        "description": "A bright, playful morning of blessings, color, and laughter.",
+        "highlights": ["Haldi Ritual", "Flower Shower", "Warm Wishes"],
+        "startDate": "2026-11-24T10:00:00+05:30",
+        "endDate": "2026-11-24T13:00:00+05:30",
+        "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "wedding",
+        "day": "day2",
+        "dayLabel": "Day 2 • Nov 24",
+        "step": "04",
+        "title": "Baraat & Shubh Vivah (Wedding)",
+        "date": "November 24, 2026",
+        "time": "05:00 PM (Baraat) • 07:00 PM (Pheras)",
+        "venue": "Durbar Hall & Palace Amphitheatre",
+        "mapsUrl": "https://maps.google.com/?q=Durbar+Hall+Umaid+Bhawan+Palace",
+        "dressCode": "Heritage / Sherwani & Lehenga",
+        "dressColors": [
+          { "hex": "#5C2C1E", "name": "Crimson" },
+          { "hex": "#C09A6B", "name": "Gold Brocade" },
+          { "hex": "#85B09A", "name": "Sage Accents" }
+        ],
+        "description": "A sacred wedding procession and Vedic vows under the evening sky.",
+        "highlights": ["Baraat", "Pheras", "Celebration"],
+        "startDate": "2026-11-24T17:00:00+05:30",
+        "endDate": "2026-11-24T23:59:00+05:30",
+        "image": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "reception",
+        "day": "day3",
+        "dayLabel": "Day 3 • Nov 25",
+        "step": "05",
+        "title": "The Grand Reception",
+        "date": "November 25, 2026",
+        "time": "07:30 PM Onwards",
+        "venue": "Lalitha Laxmi Lawns, Udaipur",
+        "mapsUrl": "https://maps.google.com/?q=Lalitha+Laxmi+Lawns+Udaipur",
+        "dressCode": "Regal Elegance / Black Tie & Tuxedo",
+        "dressColors": [
+          { "hex": "#2D473B", "name": "Palace Emerald" },
+          { "hex": "#C09A6B", "name": "Starlight Gold" },
+          { "hex": "#1E332A", "name": "Midnight Green" }
+        ],
+        "description": "An elegant evening of toasts, music, and a heartfelt welcome.",
+        "highlights": ["Cake Cutting", "Toasts", "Elegant Dining"],
+        "startDate": "2026-11-25T19:30:00+05:30",
+        "endDate": "2026-11-25T23:30:00+05:30",
+        "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=600&q=80"
+      }
+    ]
+  },
+  "story": {
+    "tag": "Postcard Album",
+    "headline": "Our Story",
+    "subtitle": "Select a postcard from our journey",
+    "chapters": [
+      {
+        "id": 1,
+        "year": "Summer 2022",
+        "chapter": "Chapter I",
+        "title": "First Meeting",
+        "description": "Our paths crossed at a family celebration, and the first moment felt like an auspicious beginning.",
+        "imageKey": "wildflowers",
+        "location": "Udaipur, Rajasthan",
+        "postmarkDate": "JUN 2022",
+        "highlights": ["Serendipitous Encounter", "Shared Laughter", "A New Friendship"]
+      },
+      {
+        "id": 2,
+        "year": "Winter 2023",
+        "chapter": "Chapter II",
+        "title": "Celebration of Togetherness",
+        "description": "We celebrated festivals, family rituals, and quiet evenings as our bond grew deeper.",
+        "imageKey": "ranchFence",
+        "location": "Jodhpur, Rajasthan",
+        "postmarkDate": "DEC 2023",
+        "highlights": ["Family Gatherings", "Festive Rituals", "Warm Traditions"]
+      },
+      {
+        "id": 3,
+        "year": "Spring 2025",
+        "chapter": "Chapter III",
+        "title": "A Promise Made",
+        "description": "Under the open sky, surrounded by loved ones, we decided to walk forward together.",
+        "imageKey": "ranchPortrait",
+        "location": "Udaipur, Rajasthan",
+        "postmarkDate": "APR 2025",
+        "highlights": ["Commitment", "Joy", "Shared Dreams"]
+      },
+      {
+        "id": 4,
+        "year": "November 2026",
+        "chapter": "Chapter IV",
+        "title": "Wedding Celebration",
+        "description": "Our union is a celebration of family, color, and the promise of forever.",
+        "imageKey": "barnLights",
+        "location": "Udaipur, Rajasthan",
+        "postmarkDate": "NOV 2026",
+        "highlights": ["Sacred Vows", "Family Blessings", "Festive Revelry"]
+      }
+    ],
+    "footerNote": "We can’t wait to celebrate the next chapter with you."
+  },
+  "footer": {
+    "title": "Thank You for Celebrating With Us",
+    "description": "Your presence makes this celebration even more meaningful. We are grateful for every smile, story, and memory shared as we begin our life together.",
+    "names": "Aarav & Ananya",
+    "dateLocation": "November 23 - 25, 2026 • Udaipur, Rajasthan",
+    "creditText": "Crafted by",
+    "creditLink": "https://tekkzy.com",
+    "creditName": "tekkzy",
+    "contacts": [
+      { "type": "phone", "label": "+91 98765 43210 (Malhotra Family)" },
+      { "type": "phone", "label": "+91 91234 56789 (Singhania Family)" },
+      { "type": "email", "label": "weddinginvite@aaravwedsananya.com" }
+    ]
+  },
+  "countdown": {
+    "headline": "Until We Say “I Do”",
+    "date": "2026-11-24T16:00:00",
+    "location": "Umaid Bhawan Palace • Udaipur, India"
+  },
+  "heartReveal": {
+    "tag": "The Heart of Our Celebration",
+    "headline": "Gathered in Love",
+    "note": "Tap the heart stage to watch rose petals bloom into our wedding date.",
+    "date": "Nov 24",
+    "year": "2026",
+    "ariaLabel": "Tap to animate real rose petals into a heart and reveal the date"
+  },
+  "family": {
+    "tag": "Blessings & Lineage",
+    "headline": "The Host Families",
+    "note": "With the divine grace of Almighty God & eternal blessings of our revered ancestors.",
+    "groomFamily": {
+      "name": "The Malhotra Family",
+      "grandparents": "Late Smt. Kausalya & Late Shri Om Prakash Malhotra",
+      "parents": "Smt. Sarita & Shri Vikram Malhotra",
+      "siblings": "Rohan & Priya Malhotra"
+    },
+    "brideFamily": {
+      "name": "The Singhania Family",
+      "grandparents": "Smt. Rukmani & Shri Jagdish Prasad Singhania",
+      "parents": "Smt. Sunita & Shri Rajesh Singhania",
+      "siblings": "Anika Singhania"
+    }
+  },
+  "venue": {
+    "tag": "Destination & Directions",
+    "headline": "The Venue",
+    "description": "Umaid Bhawan Palace • Circuit House Rd, Cantt Area, Udaipur / Jodhpur, Rajasthan",
+    "locationShort": "Udaipur, Rajasthan • City of Lakes",
+    "venueName": "Umaid Bhawan Palace",
+    "venueDescription": "Perched high above the lake city, Umaid Bhawan Palace is one of the world's largest private palace residences. Crafted in yellow sandstone with gold art deco craftsmanship, it offers an unforgettable backdrop for our wedding union.",
+    "climate": {
+      "label": "November Climate",
+      "value": "Pleasant 22°C (72°F) • Golden Sun"
+    },
+    "airport": {
+      "label": "Nearest Airport",
+      "value": "Maharana Pratap Airport (UDR)"
+    },
+    "mapUrl": "https://maps.google.com/?q=Umaid+Bhawan+Palace+Udaipur",
+    "address": "Circuit House Rd, Cantt Area, Udaipur / Jodhpur, Rajasthan 342006",
+    "overlayBadge": "Heritage Residence",
+    "overlayTitle": "The Heritage Courtyard"
+  },
+  "gallery": {
+    "tag": "Gallery",
+    "headline": "Portraits from Our Journey",
+    "description": "Captured moments from across our Udaipur wedding adventure.",
+    "images": [
+      {
+        "id": 1,
+        "imageKey": "ranchPortrait",
+        "alt": "Bride & Groom at Umaid Bhawan Palace",
+        "caption": "Sunset at Umaid Bhawan Palace",
+        "location": "Udaipur, Rajasthan",
+        "aspect": "aspect-[3/4]",
+        "tilt": "-rotate-2"
+      },
+      {
+        "id": 2,
+        "imageKey": "wildflowers",
+        "alt": "Couple in palace gardens",
+        "caption": "Palace Garden Stroll",
+        "location": "Umaid Bhawan Gardens",
+        "aspect": "aspect-[4/5]",
+        "tilt": "rotate-2"
+      },
+      {
+        "id": 3,
+        "imageKey": "barnLights",
+        "alt": "Couple at palace dusk",
+        "caption": "Evening Palace Lights",
+        "location": "Palace Courtyard",
+        "aspect": "aspect-[4/3]",
+        "tilt": "-rotate-1"
+      },
+      {
+        "id": 4,
+        "imageKey": "ranchFence",
+        "alt": "Couple by palace terrace",
+        "caption": "Royal Terrace Moments",
+        "location": "Terrace View",
+        "aspect": "aspect-[3/4]",
+        "tilt": "rotate-3"
+      }
+    ]
+  }
+}

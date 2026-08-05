@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --site-font: 'Cormorant Garamond', 'Noto Serif Devanagari', serif;
+  font-family: var(--site-font);
+  line-height: 1.6;
+  font-weight: 400;
+  color: #2D473B;
+  background-color: #F7FAF8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--site-font);
+  color: #2D473B;
+}
+
+h1, h2, h3, h4, h5, h6,
+button, input, textarea, select {
+  font-family: var(--site-font);
+}
+
+@layer utilities {
+  .font-cinzel {
+    font-family: var(--site-font);
+  }
+  .font-cinzel-dec {
+    font-family: var(--site-font);
+  }
+  .font-cormorant {
+    font-family: var(--site-font);
+  }
+  .font-script {
+    font-family: var(--site-font);
+  }
+  .font-romantic {
+    font-family: 'Great Vibes', cursive;
+  }
+  .font-rozha {
+    font-family: var(--site-font);
+  }
+  .font-sans {
+    font-family: var(--site-font);
+  }
+
+  
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #C09A6B 0%, #E8D3B5 30%, #B88E58 60%, #D4AF37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-[#85B09A] {
+    color: #85B09A;
+  }
+
+  .bg-[#85B09A] {
+    background-color: #85B09A;
+  }
+
+  .text-chestnut-gradient {
+    background: linear-gradient(135deg, #2D473B 0%, #4A231A 50%, #1E332A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-gold-gradient {
+    background: linear-gradient(135deg, #C09A6B 0%, #F3E5C8 40%, #B88E58 100%);
+  }
+
+  .bg-sand-gradient {
+    background: linear-gradient(135deg, #E6EFEA 0%, #85B09A 100%);
+  }
+
+  .bg-gold-soft {
+    background: linear-gradient(135deg, rgba(133, 176, 154, 0.15) 0%, rgba(243, 229, 200, 0.25) 50%, rgba(133, 176, 154, 0.15) 100%);
+  }
+
+  .border-gold-foil {
+    border-image: linear-gradient(135deg, #C09A6B 0%, #F3E5C8 50%, #B88E58 100%) 1;
+  }
+
+  .text-gold-shimmer {
+    background: linear-gradient(90deg, #B88E58 0%, #FFF3D6 25%, #D4AF37 50%, #FFF3D6 75%, #B88E58 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 3s linear infinite;
+  }
+
+  .gold-shimmer {
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite linear;
+  }
+
+  
+  .bg-paper-ivory {
+    background-color: #85B09A;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px), radial-gradient(rgba(74, 35, 26, 0.04) 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-position: 0 0, 12px 12px;
+  }
+
+  .bg-paper-pearl {
+    background-color: #F0F5F2;
+    background-image: radial-gradient(#85B09A 0.75px, transparent 0.75px);
+    background-size: 20px 20px;
+  }
+
+  .card-paper-embossed {
+    background: #F7FAF8;
+    box-shadow: 
+      0 10px 30px -5px rgba(45, 71, 59, 0.08),
+      0 20px 25px -5px rgba(133, 176, 154, 0.12),
+      inset 0 0 0 1px rgba(133, 176, 154, 0.4);
+  }
+
+  .card-gold-glow {
+    box-shadow: 
+      0 0 25px rgba(133, 176, 154, 0.3),
+      0 10px 30px rgba(45, 71, 59, 0.08);
+  }
+
+  .bg-countdown-mobile {
+    background-color: #E6EEDC;
+    background-image: url("./assets/images/bgm.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-gallery-desktop {
+    background-color: #A1B492;
+    background-image: url("./assets/images/bgd.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-gallery-mobile {
+    background-color: #F8F1E7;
+    background-image: radial-gradient(circle at top left, rgba(208, 159, 95, 0.18), transparent 28%),
+      radial-gradient(circle at bottom right, rgba(64, 48, 35, 0.1), transparent 32%);
+  }
+
+  .bg-hero {
+    background-color: #F7EFEA;
+    background-image: radial-gradient(circle at top, rgba(255, 255, 255, 0.55), transparent 35%);
+  }
+
+  .bg-reveal-date {
+    background-color: #F6EFE5;
+  }
+
+  .bg-story {
+    background-color: #F2F4EE;
+  }
+
+  .bg-events {
+    background-color: #EFF4ED;
+  }
+
+  .bg-family {
+    background-color: #F5F3EC;
+  }
+
+  .bg-venue {
+    background-color: #F0F5F2;
+  }
+
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #85B09A;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #C09A6B 0%, #2D473B 100%);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5C8873;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(3deg); }
+}
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 40s linear infinite;
+}
+
+.animate-spin-reverse {
+  animation: spinSlow 50s linear infinite reverse;
+}
+
