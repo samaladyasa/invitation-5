@@ -13,6 +13,7 @@ import RevealDateSection from './components/reveal/RevealDateSection';
 import CountdownSection from './components/countdown/CountdownSection';
 import EventsSection from './components/events/EventsSection';
 import GallerySection from './components/gallery/GallerySection';
+import VenueSection from './components/venue/VenueSection';
 import FamilySection from './components/family/FamilySection';
 import Footer from './components/footer/Footer';
 
@@ -162,6 +163,8 @@ export default function App() {
             <GallerySection />
 
             <MountainDivider prevColor="#85B09A" fillColor="#F0F5F2" height={110} variant="soft" strokeColor="rgba(255,255,255,0.7)" />
+
+            <VenueSection />
 
             <FamilySection />
 
